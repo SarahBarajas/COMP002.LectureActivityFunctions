@@ -8,3 +8,6 @@ console.log(greet("Sarah"));
 function calculateCircumference(diameter) {
     return Math.PI * diameter;
 }
+
+// Call the calculateCircumference function and log results 
+console.log(calculateCircumference(10));
