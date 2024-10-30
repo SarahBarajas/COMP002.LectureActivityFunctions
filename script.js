@@ -11,3 +11,7 @@ function calculateCircumference(diameter) {
 
 // Call the calculateCircumference function and log results 
 console.log(calculateCircumference(10));
+
+// Define the first function
+function firstFunction() {
+    console.log("First function start"); // Log the start of the first function
