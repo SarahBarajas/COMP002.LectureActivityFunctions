@@ -30,3 +30,12 @@ function secondFunction() {
 console.log("Calling firstFunction()"); // Log before calling the first function
 firstFunction();
 console.log("Completed calling firstFunction()"); 
+
+function stackOverflow() {
+    stackOverflow(); 
+}
+
+console.log("Stack overflow example:");
+}
+
+//
