@@ -25,3 +25,8 @@ function firstFunction() {
 function secondFunction() {
     console.log("Inside second function"); // Log inside second function
 }
+
+// Call the first function
+console.log("Calling firstFunction()"); // Log before calling the first function
+firstFunction();
+console.log("Completed calling firstFunction()"); 
