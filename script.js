@@ -19,3 +19,9 @@ function firstFunction() {
     secondFunction(); // Call second function
 
     console.log("First function end"); // Log end of the first function
+}
+
+// Define second function
+function secondFunction() {
+    console.log("Inside second function"); // Log inside second function
+}
